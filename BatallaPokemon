@@ -1,0 +1,12 @@
+public class BatallaPokemon {
+
+   
+    public static void main(String[] args) {
+        PokemonDragon Dragonite = new PokemonDragon("Dragonite", 10);
+        PokemonFantasma Gengar =  new PokemonFantasma("Gengar", 10);
+        
+        Dragonite.atacar("ataca",Gengar);
+        Gengar.atacar("atacar", Dragonite);
+    }
+}
+ 
